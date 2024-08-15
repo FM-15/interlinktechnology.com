@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="IST Website.css">
+</head>
+<body>
+    <div class="Title">
+        <h1>Bus Topology</h1>
+    </div>
+
+    <div class="Outer">
+        <p>In the Bus topology, nodes are connected in a line. Every node on the network can monitor every 
+            packet delivered on the cable in a bus topology. Every packet is examined by each node to see 
+            if it is meant for that node. If so, the packet is claimed by the node. If not, the packet is 
+            ignored by the node. Each computer on the network will then be able to respond to data delivered 
+            to it and ignore data sent to other computers.
+
+            If the cable in a bus network breaks, the entire network is disabled. 
+            Because data cannot span the distance formed by the break, the nodes on opposite sides of the 
+            break can continue to interact with each other. Even nodes on the same side of the break may be 
+            unable to interact with one another because the open end of the cable left by the break disrupts 
+            the efficient transmission of electrical signals.
+            
+            The use of a bus topology has various advantages. It's simple to add new devices, replace current 
+            devices, or uninstall old devices without impacting other connected devices, compared to other
+            network topologies like mesh and star, less cable is used, and the cable can be quickly extended 
+            as needed.
+            </p>
+    </div>
+
+    <div class="ADV">
+        <p>Advantages:</p>
+
+        <ul>
+            <li>
+                Connects devices linearly along a single backbone cable, suitable for non-technical users.
+            </li>
+
+            <li>
+                Requires Minimal cabling, only as many cables as nodes, reducing setup costs.
+            </li>
+
+            <li>
+                Adding/removing devices doesn't affect others, beneficial for small networks.
+            </li>
+
+            <li>
+                Easily expand by adding devices to existing backbone cable, useful for small to medium-sized networks.
+            </li>
+
+            <li>
+                Data travels directly along the backbone, making it faster. 
+            </li>
+            <br>
+            <br>
+        </ul>
+    </div>
+
+    <img src="Images/Bus Topology.gif" alt="" class="Images">
+
+    <div class="DISADV">
+        <p>Disadvantages:</p>
+
+        <ul>
+            <li>
+                Bus topology isn't ideal for large networks; its limitations become more pronounced as the network grows.
+            </li>
+
+            <li>
+                When the entire network goes down, pinpointing the issue is challenging. Troubleshooting individual devices is also difficult.
+            </li>
+
+            <li>
+                Terminators prevent signal reflection and ensure integrity; improper termination affects performance.
+            </li>
+
+            <li>
+                Bus topology experiences high packet loss due to collisions on the shared medium.
+            </li>
+
+            <li>
+                If the main cable is damaged, the entire network fails or splits. 
+            </li>
+        </ul>
+    </div>
+
+
+    <a href="Network Topologies.html"><button class="Btn3">Back</button></a>
+    <a href="Homepage.html"><Button class="Btn3">Home</Button></a>
+    <a href="Ring Topology.html"><button class="Btn3">Next</button></a> 
+</body>
+</html>

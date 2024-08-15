@@ -1,0 +1,292 @@
+body{
+    background-image: url(Images/BAKIMG);
+    background-color: black;
+    background-size: 100%;
+}
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.Title{
+    border: 1px black solid;
+    background-color: #03045E;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Home1{
+    width: 350px;
+    display: inline-block;
+    font-size: large;
+    padding-left: 10px;
+    text-align: center;
+    margin-right: 100px;
+    font-size: 23px;
+}
+.OuterH{
+    border: 1px solid   black;
+    background-color: #023E8A;
+    border-radius: 20px;
+    width: 1000px;
+    text-align: center;
+    margin-left: 101px;
+    color: #FEFCFB;
+    padding: 10px;
+}
+.Images{
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.HomeBtn{
+    width: 800px;
+    border-radius: 20px;
+    height: 40px;
+    margin-left: 400px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: large;
+    background-color: #e1e5f2;
+}
+.Images1{
+    width: 350px;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 15px;
+    height: 245px;
+    border: white 3px solid;
+}
+.Outer{
+    width: 98%;
+    background-color: #023E8A;
+    border-radius: 20px;
+    padding: 10px;
+    color: #FEFCFB;
+    font-size: large;
+    text-align: center;
+    display: inline-block;
+}
+
+.BtnBox{
+    width: 980px;
+    background-color: #0096C7;
+    border-radius: 20px;
+    margin-left: 100px;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.Button{
+    width: 450px;
+    border-radius: 20px;
+    height: 50px;
+    display: inline-block;
+    background-color: #023E8A;
+    margin: 10px;
+    font-size: medium;
+    color: white;
+}
+.HomeBtn{
+    width: 1022px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.Button1{
+    width: 450px;
+    border-radius: 20px;
+    height: 50px;
+    display: inline-block;
+    background-color: #023E8A;
+    margin: 10px;
+    font-size: medium;
+    color: white;
+    margin-left: 250px;
+}
+.OuterTON{
+    width: 800px;
+    background-color: #023E8A;
+    border-radius: 20px;
+    padding: 10px;
+    color: #FEFCFB;
+    font-size: large;
+    text-align: center;
+    margin-left: 250px;
+}
+.TON1{
+    display: inline-block;
+}
+.ADV{
+    width: 370px;
+    background-color: #023E8A;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    height: 300px;
+}
+.DISADV{
+    width: 370px;
+    background-color: #023E8A;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    height: 300px;
+}
+.NetD{
+    width: 335px;
+    border: black solid 1px;
+    background-color: #0096C7;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+.NetDImg{
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+}
+.Bold{
+    color: black;
+}
+.Outer2{
+    width: 98%;
+    background-color: #023E8A;
+    border-radius: 20px;
+    padding: 10px;
+    color: #FEFCFB;
+    font-size: large;
+    text-align: left;
+}
+.quiz-container {
+max-width: 600px;
+margin: 0 auto;
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Quizh1 {
+text-align: center;
+color: black;
+}
+.question {
+margin: 20px 0;
+}
+.question h3 {
+margin-bottom: 10px;
+}
+.question input {
+margin-right: 10px;
+}
+.result {
+text-align: center;
+margin-top: 20px;
+}
+.QBody{
+    background-repeat: no-repeat;
+    background-size: 225%;
+}
+.ButtonQ{
+    width: 250px;
+    border-radius: 20px;
+    height: 50px;
+    display: inline-block;
+    background-color: #023E8A;
+    margin: 10px;
+    font-size: medium;
+    color: white;
+    display: inline-block;
+    margin-left: 30px;
+}
+.footer{
+    text-align: center;
+    border: gray;
+    background-color: grey;
+    width: 98.5%;
+    padding: 10px;
+    margin-top: 100px;
+    height: 230px;
+    padding-bottom: 30px;
+}
+.ftr{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    margin-left: 150px;
+    color: white;
+}
+.ftrimg{
+    width: 200px;
+    border-radius: 20px;
+    height: 150px;
+}
+.ftt{
+    color: black;
+    font-size: large;
+}
+.fh2{
+    text-align: left;
+    margin-left: 500px;
+}
+.Home2{
+    width: 400px;
+    display: inline-block;
+    font-size: large;
+    padding-left: 10px;
+    text-align: center;
+    margin-right: 100px;
+    font-size: 20px;
+}
+.Btn2{
+    width: 300px;
+    border-radius: 20px;
+    height: 50px;
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+    font-size: medium;
+    color: black;
+    display: inline-block;
+    margin-left: 200px;
+}
+.Btn3{
+    width: 250px;
+    border-radius: 20px;
+    height: 50px;
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+    font-size: medium;
+    color: black;
+    display: inline-block;
+    margin-left: 100px;
+}
+.NMdia{
+    width: 450px;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 70px;
+}
+.NMdia1{
+    width: 450px;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 70px;
+    font-size: larger;
+}
+.tbl{
+    text-align: left;
+}
+table{
+    border-color: white 3px solid;
+}

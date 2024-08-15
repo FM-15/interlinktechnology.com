@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ring Topology</title>
+    <link rel="stylesheet" href="IST Website.css">
+</head>
+<body>
+    <div class="Title">
+        <h1>Ring Topology</h1>
+    </div>
+
+    <div class="Outer">
+        <p> A ring topology is a network design in which devices are linked together in a ring structure and
+            communicate with one another based on the nodes that are next to them on the ring. 
+            A ring topology is more effective than a bus architecture and can support greater loads. 
+            Most Ring Topologies are referred to as one-way unidirectional ring networks since packets may 
+            only go in one direction. Different types of ring topology installations function differently 
+            depending on the devices that are being connected to build a network. 
+            Both local area networks (LANs) and wide area networks (WANs) employ ring topologies 
+            (wide area networks). A coaxial cable or an RJ-45 network cable is used to connect computers 
+            together in a ring topology, depending on each computer's network card type.<p>
+
+
+            <p>Every device in a ring topology is simply linked together with two other devices in a circular 
+            pattern. Data is passed from one device to another in this sort of topology until it reaches its
+            goal. Tokens are used to convey data from the transmitting node to the destination. Token ring
+            topology is another name for this architecture.<p>
+    </div>
+
+    <div class="ADV">
+        <p>Advantages:</p>
+
+        <ul>
+            <li>
+                Ring networks offer fast data transmission speeds, unaffected by excessive load.
+            </li>
+            
+            <li>
+                Adding workstations one at a time simplifies scaling without overloads or performance declines.
+            </li>
+
+            <li>
+                Ring topology's one-way flow minimizes data collisions, easing data delivery.
+            </li>
+
+            <li>
+                Troubleshooting ring faults is straightforward, except for unidirectional issues. Workstations after a faulty computer cease to function, aiding quick fault location.
+            </li>
+
+            <li>
+                Ring topologies require less cabling than complex alternatives. No central switch reduces equipment costs, appealing to budget-conscious businesses.
+            </li>
+
+        </ul>
+    </div>
+
+    <img src="Images/Ring Topology.gif" alt="" class="Images">
+
+    <div class="DISADV">
+        <p>Disadvantages:</p>
+
+        <ul>
+            <li>
+                In a ring topology, data packets pass through all linked workstations, raising security concerns due to potential unauthorized access.
+            </li>
+
+            <li>
+                Unidirectional paths mean each equipment depends on others; compensating for a single workstation loss is necessary.
+            </li>
+
+            <li>
+                Adding/removing nodes disrupts network activity; users bear the burden of change-related outages.
+            </li>
+
+            <li>
+                A single cable supports the entire ring structure; if it fails, signals stop moving.
+            </li>
+
+            <li>
+                Ring topology severely limits bandwidth; fewer connected nodes are advisable to avoid communication hiccups.
+            </li>
+        </ul>
+    </div>
+
+
+    <a href="Network Topologies.html"><button class="Btn3">Back</button></a>
+    <a href="Homepage.html"><Button class="Btn3">Home</Button></a>
+    <a href="Star Topology.html"><button class="Btn3">Next</button></a> 
+</body>
+</html>
